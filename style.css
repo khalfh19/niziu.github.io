@@ -1,0 +1,633 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* End */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+/* Header */
+
+
+.navbar .nav-item .nav-link{
+  position: relative;
+  top: 10px;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.navbar .nav-item .nav-link i{
+  cursor: pointer;
+}
+
+.navbar .nav-item .nav-link:hover{
+  color: rgb(212, 23, 140);
+}
+
+.navbar .nav-item .nav-link::after{
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: rgb(212, 23, 140);
+  margin-bottom: 10px;
+}
+
+.navbar .nav-item .nav-link:hover::after{
+  width: 100%;
+  transition: all .5s;
+}
+
+
+/* End */
+
+
+
+/* Hero */
+
+.hero{
+  margin-top: 74px;
+}
+
+.hero img{
+  border-radius: 20px;
+  width: 95%;
+}
+
+/* End */
+
+
+
+
+/* About */
+
+.about{
+  margin-top: 200px;
+}
+
+.about .isi{
+  margin-top: 10px;
+  background-color: rgb(247, 9, 195);
+  margin-left: -400px;
+  color: white;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.about h1{
+  padding: 15px 15px 5px 15px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.about p{
+  padding-left: 20px;
+}
+
+.about .down{
+  margin-top: 20px;
+}
+
+.about .triangle-left {
+  position: relative;
+  top: 20%;
+  left: -4%;
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid rgb(247, 9, 195);
+  z-index: -1;
+}
+
+/* End */
+
+
+
+
+/* Member */
+
+.member{
+  margin-top: 200px;
+}
+
+.member h2{
+  float: left;
+  cursor: default;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(130deg, rgb(255, 4, 221), rgb(163, 7, 163));
+}
+
+.member .card{
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.member .card:hover .Mako {
+  opacity: 0.3;
+}
+
+.member .card:hover .Rio {
+  opacity: 0.3;
+}
+
+.member .card:hover .Maya {
+  opacity: 0.3;
+}
+
+.member .card:hover .Riku {
+  opacity: 0.3;
+}
+
+.member .card:hover .Ayaka {
+  opacity: 0.3;
+}
+
+.member .card:hover .Mayuka {
+  opacity: 0.3;
+}
+
+.member .card:hover .Rima {
+  opacity: 0.3;
+}
+
+.member .card:hover .Miihi {
+  opacity: 0.3;
+}
+
+.member .card:hover .Nina {
+  opacity: 0.3;
+}
+
+.member .card:hover .Isi {
+  opacity: 1;
+}
+
+.member .Mako, .Maya, .Rio, .Riku, .Ayaka, .Mayuka, .Rima, .Miihi, .Nina{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.member .Isi{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.member .Text{
+  color: black;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+/* End */
+
+
+/* Movie */
+
+.movie{
+  margin-top: 200px;
+}
+
+.movie h2{
+  margin-bottom: 20px;
+  float: right;
+  padding: 15px 25px 15px 25px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  cursor: default;
+  background-image: linear-gradient(130deg, rgb(255, 4, 221), rgb(163, 7, 163));
+}
+
+.movie iframe{
+  margin-left: 65px;
+}
+
+
+.movie .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 15px; /* change width */
+  height: 15px; /* change height */
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 100%;  /* add border-radius */
+}
+
+/* End */
+
+
+
+
+
+
+/* Discography */
+
+.discography{
+  margin-top: 200px;
+  background-color: rgb(235, 233, 233);
+  padding-bottom: 200px;
+}
+
+.discography h2{
+  padding-top: 50px;
+  float: left;
+  cursor: default;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 5px;
+}
+
+.discography hr{
+  float: right;
+  width: 70%;
+  margin-top: 65px;
+  opacity: 1;
+  border: 1px solid aqua;
+}
+
+.discography .summer{
+  margin-top: 120px;
+}
+
+.discography .details{
+  margin-top: 120px;
+  cursor: default;
+}
+
+.discography .details h3{
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.discography .details span{
+  width: 6em;
+  margin: .5em auto 0;
+}
+
+.discography .details img{
+  width: 50%;
+  margin-left: 8em;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+
+.discography .details .PoppinShakin{
+  width: 80%;
+  margin-left: 5em;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+
+.discography .details .released-date{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: .5em 0 1em 0;
+}
+
+.discography .details .music{
+  text-align: center;
+}
+
+.discography .supersummer .details .listen .listen-btn a:hover{
+  box-shadow: 0 8px 0 0 rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+.discography .supersummer .details .listen .listen-btn a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .15em;
+  text-indent: .15em;
+  padding: 0 1em;
+  width: 70%;
+  text-align: center;
+  line-height: 3.5;
+  left: 15%;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #ff758c 0%, #ff7eb3 100%);
+  background: linear-gradient(to left, #ff758c 0%, #ff7eb3 100%);
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 0%), 0 0 0 0 rgb(0 0 0 / 0%);
+  transition: .3s;
+}
+
+.discography .details .listen .listen-btn a::after{
+  content: "\f3d3";
+  font-family: "ionicons";
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.discography .details .listen .listen-btn i{
+  display: block;
+  width: 1.2em;
+  position: absolute;
+  left: 1.5em;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: .5em;
+}
+
+.discography .takeapicture .details .ttl{
+  text-align: center;
+}
+
+.discography .takeapicture .details .ttl-reguler{
+  margin-left: 120px;
+}
+
+.discography .takeapicture .details .music-list{
+  margin-bottom: 1em;
+  margin-left: 130px;
+}
+
+.discography .takeapicture .carousel-item img{
+  margin-top: 120px;
+}
+
+.discography .takeapicture .details .listen .listen-btn a:hover{
+  box-shadow: 0 8px 0 0 rgba(0,0,0,.1);
+  transform: translateY(-3px);
+}
+
+.discography .takeapicture .details .listen .listen-btn a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .15em;
+  text-indent: .15em;
+  padding: 0 1em;
+  width: 70%;
+  text-align: center;
+  line-height: 3.5;
+  left: 15%;
+  margin-bottom: 20px;
+  background-color: #e8410b;;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 0%), 0 0 0 0 rgb(0 0 0 / 0%);
+  transition: .3s;
+  margin-top: 40px;
+}
+
+
+/* End */
+
+
+
+/* Topic */
+
+.topic{
+  background-color: rgb(253, 177, 234);
+  padding-bottom: 100px;
+}
+.topic .topArea{
+  padding-left: 5em;
+  padding-top: 5em;
+  padding-bottom: 90px;
+  background-color: white;
+}
+
+.topic .topArea h3{
+  font-size: 25px;
+  letter-spacing: 7px;
+  cursor: default;
+}
+
+.topic .topArea .event{
+  margin-top: 50px;
+}
+
+.topic .topArea .event .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 0, 157, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.topic .topArea .event .btn h6{
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.topic .topArea .event .btn {
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 70px;
+  position: absolute;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.topic .topArea .event .card:hover .overlay {
+  width: 100%;
+}
+
+.topic .topArea .news{
+  padding-top: 100px;
+}
+
+.topic .topArea .news h3{
+  font-size: 30px;
+  letter-spacing: 7px;
+  cursor: default;
+}
+
+.topic .topArea .news-list{
+  font-size: 15px;
+}
+
+.topic .topArea .news-list .time{
+  margin-bottom: .5em;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.topic .topArea .news-list ul li{
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+.topic .topArea .news-list a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.topic .topArea a:hover span{
+  color: rgb(255, 34, 255);
+}
+
+.topic .topArea .news-list .more a{
+  margin-right: 50px;
+  text-align: right;
+  border: none;
+  font-weight: 500;
+  transition: ease-in .2s;
+}
+
+.topic .topArea .news-list .more a:hover{
+  color: rgb(255, 34, 255);
+}
+
+/* End */
+
+
+/* Footer */
+
+footer{
+  padding-top: 50px;
+}
+
+footer h3{
+  cursor: default;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  margin-top: 20px;
+  padding-right: 40px;
+  left: 455px;
+}
+
+/* Icon */
+
+footer i{
+  font-size: 35px;
+  transition: ease .2s;
+}
+
+footer i:hover{
+  transform: translateY(-3px);
+}
+
+footer .medsos-list .fa-facebook{
+  color: #4267B2;
+}
+footer .medsos-list .fa-instagram{
+  color: #bc2a8d;
+}
+footer .medsos-list .fa-twitter{
+  color: #1DA1F2;
+}
+footer .medsos-list .fa-line{
+  color: #00B900;
+}
+footer .medsos-list .fa-youtube{
+  color: #FF0000;
+}
+
+/* copy */
+
+.copy{
+  margin-top: 100px;
+}
+
+.copy h4{
+  cursor: default;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(182, 182, 182);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.copy span{
+  text-transform: none;
+}
+
+
+
+/* End */
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* End */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+/* Header */
+
+
+.navbar .nav-item .nav-link{
+  position: relative;
+  top: 10px;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.navbar .nav-item .nav-link i{
+  cursor: pointer;
+}
+
+.navbar .nav-item .nav-link:hover{
+  color: rgb(212, 23, 140);
+}
+
+.navbar .nav-item .nav-link::after{
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: rgb(212, 23, 140);
+  margin-bottom: 10px;
+}
+
+.navbar .nav-item .nav-link:hover::after{
+  width: 100%;
+  transition: all .5s;
+}
+
+
+/* End */
+
+
+
+/* Hero */
+
+.scout{
+  margin-top: 74px;
+  background-color: rgb(253, 177, 234);;
+  padding-bottom: 100px;
+}
+
+.scout .hero{
+  display: block;
+  background-color: white;
+  width: 50%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.scout h4{
+  cursor: default;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.scout-content{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.scout-content a{
+  text-decoration: none;
+}
+
+.scout-content .card{
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.scout-content p{
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.scout-content i{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+  transition: linear .2s;
+}
+
+.scout-content .card:hover i{
+  color: rgb(212, 23, 140);
+} 
+
+/* End */
+
+
+/* Footer */
+
+footer{
+  padding-top: 50px;
+}
+
+footer h3{
+  cursor: default;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  margin-top: 20px;
+  padding-right: 40px;
+  left: 455px;
+}
+
+/* Icon */
+
+footer i{
+  font-size: 35px;
+  transition: ease .2s;
+}
+
+footer i:hover{
+  transform: translateY(-3px);
+}
+
+footer .medsos-list .fa-facebook{
+  color: #4267B2;
+}
+footer .medsos-list .fa-instagram{
+  color: #bc2a8d;
+}
+footer .medsos-list .fa-twitter{
+  color: #1DA1F2;
+}
+footer .medsos-list .fa-line{
+  color: #00B900;
+}
+footer .medsos-list .fa-youtube{
+  color: #FF0000;
+}
+
+/* copy */
+
+.copy{
+  margin-top: 100px;
+}
+
+.copy h4{
+  cursor: default;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(182, 182, 182);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.copy span{
+  text-transform: none;
+}
+
+
+
+/* End */
+
+
+
+
+
